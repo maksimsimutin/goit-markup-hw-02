@@ -1,0 +1,149 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #2f303a;
+  --tertiary-color: #f5f4fa;
+  --quaternary-color: #2196f3;
+
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --text-tertiary: #2196f3;
+  --text-quaternary: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-primary);
+}
+
+/*header*/
+
+.logo-link {
+  color: var(--text-primary);
+}
+.logo-color {
+  color: var(--text-tertiary);
+}
+a.logo-link {
+  text-decoration: none;
+}
+.list-nav {
+  list-style: none;
+}
+.navigation-link {
+  text-decoration: none;
+}
+.contacts-list {
+  list-style: none;
+}
+.contacts-link {
+  text-decoration: none;
+}
+.navigation-link.logo-color {
+  color: var(--text-tertiary);
+}
+.navigation-list-link {
+  color: var(--text-primary);
+}
+.contacts-link.logo-color {
+  color: var(--text-tertiary);
+}
+.contacts-link {
+  color: var(--text-secondary);
+}
+.list-nav .navigation-link:hover,
+.list-nav .navigation-link:focus {
+  color: var(--text-tertiary);
+}
+.contacts-list .contacts-link:hover,
+.contacts-list .contact-link:focus {
+  color: var(--text-tertiary);
+}
+
+/*hero*/
+
+.section-hero {
+  background-color: var(--secondary-color);
+  color: var(--text-quaternary);
+  text-align: center;
+}
+
+/*info*/
+ul.list-info {
+  list-style: none;
+}
+
+.heading-info {
+  color: var(--text-primary);
+}
+.text-info {
+  color: var(--text-secondary);
+}
+
+/*Чем мы занимаемся*/
+ul.list-we-doing {
+  list-style: none;
+  color: var(--text-primary);
+}
+
+/*Team*/
+.section-team {
+  background-color: var(--tertiary-color);
+}
+ul.list-team {
+  list-style: none;
+}
+.heading-team .heading-name {
+  color: var(--text-primary);
+}
+.text-team {
+  color: var(--text-secondary);
+}
+
+/*Footer*/
+
+footer {
+  background-color: var(--secondary-color);
+}
+
+ul.list-address {
+  list-style: none;
+}
+.address-map {
+  text-decoration: none;
+}
+.address-map {
+  color: var(--text-quaternary);
+}
+.address-link {
+  text-decoration: none;
+}
+.address-link {
+  color: rgba(225, 225, 225, 0.6);
+}
+.address-map:hover,
+.address-map:focus {
+  color: var(--text-tertiary);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--text-tertiary);
+}
+
+/*portfolio secyion*/
+
+ul.portfolio-list-btn {
+  list-style: none;
+}
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
+  color: var(--tertiary-color);
+}
+
+/*list section*/
+.portfolio-list {
+  list-style: none;
+}
+.span-portfolio-list {
+  color: var(--text-secondary);
+}
