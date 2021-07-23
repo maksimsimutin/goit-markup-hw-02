@@ -80,7 +80,7 @@ body {
 
 /*hero*/
 
-.section-hero {
+.section-order-service {
     font-weight: 900;
     font-size: 44px;
     line-height:1.36;
@@ -92,7 +92,7 @@ body {
   color: var(--primary-color);
   
 }
-.button-hero {
+.button-order-service {
     font-family: Roboto,sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -255,12 +255,17 @@ address{
   background-color: var(--quaternary-color);
   color: var(--tertiary-color);
 }
+.acting { 
+  background-color: var(--quaternary-color);
+  color: var(--tertiary-color);
+}
 /*list section*/
 .portfolio-list {
   list-style: none;
 }
 .link-img{
     text-decoration: none;
+    color: var(--text-primary);
 }
 .link-img:hover,
 .link-img:focus{
